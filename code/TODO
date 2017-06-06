@@ -1,0 +1,49 @@
+ *** WHEN YOU GET TO COMPETITION
+
+Calibration session at 8am on Thursday:
+- Camera brightness
+- Target color
+- Camera mount alignment
+
+Turn down brightness from 20 to 10 percent because there's a lot more light at competition than in WIT
+	You'll need to update the percieved color of the target.  With different brightness it will seem like the target is a different color, but the color we're looking for was taken at 20% brightness
+		Save a camera picture and put it in paint.  Then use the eyedropper tool
+	The setting is in both the visionTarget module and the camera settup.  The camera settup is what matters; don't forget to change both!
+
+Retune PID for pneumatic wheel
+
+Tune vision align pid
+
+Retune the speedAdj value to work with the pneumatic wheels
+
+Test pneumatic ballgate replacement
+
+
+
+
+
+ *** STILL NEEDS TO BE DONE
+
+Finish PID tuning for vision align on NanoBot
+
+
+
+
+ *** DONE
+
+Fix visionOverlay code
+	Asserted identical types for the sent data and recieved data
+	the 2 perameter means highlight... this might not be favorable but it sure is visible
+	Often you have to move the robot for it to update the picture... can we fix this?
+
+Implement colors in the dbgtrace lib
+	Colorize all the errors and status lights and such
+	Check how to do colours in bash - assert the validity of the constants
+
+Implement pneumatic ballgate replacement
+
+debug the Console module
+
+Try new PID tuning of pneumatic wheels - higher P, more D
+	Can this be automated?
+
